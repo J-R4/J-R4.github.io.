@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Itim";
+}
+
+a {
+  color: #0645ad;
+  text-decoration: none;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+}
+
+#love-symbol {
+  width: 20px;
+  height: 20px;
+  margin-left: 0px;
+}
+
+header nav {
+  float: left;
+  margin-top: 30px;
+  margin-left: 80px;
+  border-radius: 15px 50px 30px 5px;
+}
+
+.title-container {
+  display: inline-block;
+  width: 100%;
+  text-align: left;
+  position: relative;
+  top: 0;
+  background-color: white;
+  color: black;
+  height: 30px;
+  border-bottom: 0.5px solid grey;
+}
+.title-container h2 {
+  margin-left: 110px;
+}
+
+.title-container p {
+  margin-left: 110px;
+}
+
+.title-container img {
+  margin-top: 50px;
+  margin-left: 110px;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+
+/* .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: #008cba;
+}
+
+.catto-container:hover .overlay {
+  opacity: 0.75;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+} */
+
+.catto {
+  width: 250px;
+  height: 250px;
+}
+
+.list-container {
+  text-align: center;
+  margin-top: 60px;
+}
+
+.catto-container {
+  display: inline-block;
+  margin: 0 30px 50px 30px;
+  padding: 20px 50px;
+}
